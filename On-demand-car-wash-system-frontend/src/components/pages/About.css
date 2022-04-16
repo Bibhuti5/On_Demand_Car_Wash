@@ -1,0 +1,16 @@
+.aboutus {
+    color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}
+.aboutimg{
+  
+    background-image:   "url(" + "images/bodyclean.jpg" + ")";
+}
+.aboutus{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
