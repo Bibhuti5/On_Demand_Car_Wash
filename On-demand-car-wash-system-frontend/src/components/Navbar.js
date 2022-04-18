@@ -51,12 +51,6 @@ function Navbar() {
               About Us
             </Link>
           </li>
-
-          <li className="nav-item">
-            <Link to={"/Profile"} className='nav-link'>
-              Profiles
-            </Link>
-          </li>
         </div>
 
         <div className="ms-auto pe-md-5 navbar-nav">
@@ -66,6 +60,17 @@ function Navbar() {
               Login
             </Link>
           </li>
+          <li className='nav-item'>
+            <Link to='/washerlog' className='nav-link'>
+              Wahser Login
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/adminlog' className='nav-link'>
+              Admin Login
+            </Link>
+          </li>
+
          
         </div>
 

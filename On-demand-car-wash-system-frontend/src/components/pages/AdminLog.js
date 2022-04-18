@@ -9,7 +9,7 @@ const AdminLog = () => {
                 <input type="text" placeholder='name' /><br /><br />
                 <input type="password" placeholder='password' />
                 <br />
-                <button className="bookBtn" onClick={() => { navigate('/admin') }}>Submit <i className="fas fa-arrow-right rightArw"></i></button>
+                <button className="bookBtn" onClick={() => { navigate('/admin_home') }}>Submit <i className="fas fa-arrow-right rightArw"></i></button>
             </div>
         </div>
     )
